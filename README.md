@@ -2,6 +2,7 @@
 
 ## :mortar_board: About 
 This is my university assignment. The task was to write a program that could encrypt or decrypt text using Caesar Cipher technique. So here it is!
+
 ![](static/screenshot.jpg)
 
 ## :computer: Starting
