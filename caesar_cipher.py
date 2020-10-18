@@ -1,3 +1,4 @@
+# Function for text encryprion
 def encrypt(text, shift):
     result = ""
 
@@ -5,7 +6,7 @@ def encrypt(text, shift):
         char = text[i]
         if char == ' ':
             result += char
-        elif (char.isupper()):
+        elif char.isupper():
             result += chr((ord(char) + shift - 65) % 26 + 65)
         else:
             result += chr((ord(char) + shift - 97) % 26 + 97)
@@ -13,6 +14,7 @@ def encrypt(text, shift):
     return result
 
 
+# Function for text decryption
 def decrypt(text, shift):
     result = ''
 
@@ -20,7 +22,7 @@ def decrypt(text, shift):
         char = text[i]
         if char == ' ':
             result += char
-        elif (char.isupper()):
+        elif char.isupper():
             result += chr((ord(char) - shift + 65) % 26 + 65)
         else:
             result += chr((ord(char) - shift + 85) % 26 + 97)
@@ -28,11 +30,13 @@ def decrypt(text, shift):
     return result
 
 
+# Main logic of the program
 def main():
     state = True
     print("Hello there! \n")
 
     while state:
+        # Mode selection
         mode = str(input("Type an integer to choose a mode. \n1. Encrypt text \n2. Decrypt text \n3. Exit \n"))
 
         if mode == '1':
@@ -50,6 +54,7 @@ def main():
             state = False
 
         else:
+            # Error handling
             print("Incorrect input. Please, try again \n")
 
 
