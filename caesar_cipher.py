@@ -1,10 +1,12 @@
+letters = [i for i in range(65, 91)] + [i for i in range(97, 123)]
+
 # Function for text encryprion
 def encrypt(text, shift):
     result = ""
 
     for i in range(len(text)):
         char = text[i]
-        if char == ' ':
+        if ord(char) not in letters:
             result += char
         elif char.isupper():
             result += chr((ord(char) + shift - 65) % 26 + 65)
@@ -20,7 +22,7 @@ def decrypt(text, shift):
 
     for i in range(len(text)):
         char = text[i]
-        if char == ' ':
+        if ord(char) not in letters:
             result += char
         elif char.isupper():
             result += chr((ord(char) - shift + 65) % 26 + 65)
