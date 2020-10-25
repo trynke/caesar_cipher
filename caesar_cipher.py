@@ -1,3 +1,6 @@
+import logging
+
+
 letters = [i for i in range(65, 91)] + [i for i in range(97, 123)]
 
 # Function for text encryprion
