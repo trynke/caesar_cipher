@@ -1,0 +1,15 @@
+2020-10-25 20:02:50,951 - Program started
+2020-10-25 20:02:57,557 - User chose mode 5
+2020-10-25 20:02:57,557 - User entered incorrect value
+2020-10-25 20:03:00,806 - User chose mode 1
+2020-10-25 20:03:07,337 - User entered text: hello there
+2020-10-25 20:03:11,874 - User entered wrong shift value
+2020-10-25 20:03:14,857 - User chose mode 3
+2020-10-25 20:03:14,857 - Program ended
+2020-10-25 20:03:20,852 - Program started
+2020-10-25 20:03:23,391 - User chose mode 1
+2020-10-25 20:03:30,914 - User entered text: well, hello!
+2020-10-25 20:03:33,043 - User entered shift 3
+2020-10-25 20:03:33,044 - The encrypted text: zhoo, khoor!
+2020-10-25 20:03:35,414 - User chose mode 3
+2020-10-25 20:03:35,414 - Program ended
